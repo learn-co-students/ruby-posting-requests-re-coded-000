@@ -1535,3 +1535,280 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-30 19:28:56 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 08:02:27 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 08:02:27 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 08:03:25 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 21ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 08:03:25 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 08:03:33 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-31 08:03:39 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 10:01:06 +0300
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=TXZ3GUCKX2KEU2HKHNKW5OYRIHAGYQ1XMGC4EJVVHX1X000Y&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SBTLNNTGKTIT0ASTRAF253RIIGOMNJGUNPNIYYLRZIWDCY1W" for 127.0.0.1 at 2017-01-31 10:01:25 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SBTLNNTGKTIT0ASTRAF253RIIGOMNJGUNPNIYYLRZIWDCY1W"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 686ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 10:01:26 +0300
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 952ms (Views: 951.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 10:01:40 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"byWRyds+rJ6I4FcGNgcEdOzl+UZGTV9SO70FOY+2a3yGhsJqVw70pjNyhpVRb4rw+QvQhHe+wLvHMItKc/CPnA==", "zipcode"=>"777", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 503ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 10:01:45 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"myIL5eNTCUZfiLqZZGGS2AZ5cJjFV33kf+/hER/ujTBygVhGb2NRfuQaawoDCRxcE5dZWvSk4g2DYm9i46hp0A==", "zipcode"=>"107", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 573ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 10:45:04 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"myIL5eNTCUZfiLqZZGGS2AZ5cJjFV33kf+/hER/ujTBygVhGb2NRfuQaawoDCRxcE5dZWvSk4g2DYm9i46hp0A==", "zipcode"=>"107", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 656ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-31 10:45:12 +0300
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zft+KbXeCIqkM5zlLjfGdeRbffZSO8/gtpo+ZhMHjgwkWC2KOe5Qsh+hTXZJX0jx8bVUNGPIUAlKF7AV70Fq7A==", "venue_id"=>"4f93ec83e4b0e90bfc309f80", "tip"=>"hgh", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 436ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-31 10:45:13 +0300
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 442ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-31 10:45:26 +0300
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zft+KbXeCIqkM5zlLjfGdeRbffZSO8/gtpo+ZhMHjgwkWC2KOe5Qsh+hTXZJX0jx8bVUNGPIUAlKF7AV70Fq7A==", "venue_id"=>"4f93ec83e4b0e90bfc309f80", "tip"=>"hgh", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 541ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-31 10:45:27 +0300
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 447ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-31 10:45:29 +0300
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-31 10:45:48 +0300
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 10:45:54 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WpkXZomQIgXKn1RjqucakN6PeHEStxCxZtwW0L7s4I6zOkTFBaB6PXENhfDNj5QUy2FRsyNEj1iaUZijQqoEbg==", "zipcode"=>"kjhjkh", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 647ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 10:45:58 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ijj9QveU1B8gTYx2h6CdXmV6AasHDpinluGMPAocvQzLm67he6SMJ5vfXeXgyBPacJQoaTb9B05qbAJP9lpZ7A==", "zipcode"=>"107", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 492ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-31 10:46:10 +0300
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wdw8X/F0B8SyqVotsfuOFNtTZYq2YL+kNgaPdkou5Lywf2/8fURf/Ak7i77WkwCQzr1MSIeTIE3KiwEFtmgAXA==", "venue_id"=>"4f93ec83e4b0e90bfc309f80", "tip"=>"hello", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 407ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-31 10:46:11 +0300
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 414ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-31 10:46:15 +0300
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 427ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-31 10:46:39 +0300
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 476ms (ActiveRecord: 0.0ms)
+
+TypeError (exception class/object expected):
+  app/controllers/tips_controller.rb:8:in `raise'
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (93.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (155.9ms)
+
+
+Started PUT "/__web_console/repl_sessions/a4f482af49e871f305446138f1fb5d76" for 127.0.0.1 at 2017-01-31 10:46:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-31 11:14:32 +0300
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 11:14:38 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bRTGcFYjfd8WKh/2EEAppYlyzHiV5WADw2bfnuJ2CtqEt5XT2hMl5624zmV3KKchnJzluqQW/+o/61HtHjDuOg==", "zipcode"=>"107", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 539ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-31 11:14:44 +0300
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N5age2GDjM2yY9+t9spnnbPgfiHomi4uwZ4FHXFhCHreNfPY7bPU9QnxDj6RoukZpg5X49lpscc9E4tujSfsmg==", "venue_id"=>"4f93ec83e4b0e90bfc309f80", "tip"=>"ghfgfgh", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+TypeError (exception class/object expected):
+  app/controllers/tips_controller.rb:11:in `raise'
+  app/controllers/tips_controller.rb:11:in `create'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.4ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-31 11:15:06 +0300
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N5age2GDjM2yY9+t9spnnbPgfiHomi4uwZ4FHXFhCHreNfPY7bPU9QnxDj6RoukZpg5X49lpscc9E4tujSfsmg==", "venue_id"=>"4f93ec83e4b0e90bfc309f80", "tip"=>"ghfgfgh", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"utf8"=>"✓", "authenticity_token"=>"N5age2GDjM2yY9+t9spnnbPgfiHomi4uwZ4FHXFhCHreNfPY7bPU9QnxDj6RoukZpg5X49lpscc9E4tujSfsmg==", "venue_id"=>"4f93ec83e4b0e90bfc309f80", "tip"=>"ghfgfgh", "commit"=>"Add Tip", "controller"=>"tips", "action"=>"create"}):
+  app/controllers/tips_controller.rb:11:in `create'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.3ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.5ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-31 11:16:46 +0300
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bRTGcFYjfd8WKh/2EEAppYlyzHiV5WADw2bfnuJ2CtqEt5XT2hMl5624zmV3KKchnJzluqQW/+o/61HtHjDuOg==", "zipcode"=>"200", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 590ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-31 11:17:03 +0300
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yYaz/GE3n07n3Ke9Xfp1HdSyvoHjrOZGxT56LQCdFUAgJeBf7QfHdlxOdi46kvuZwVyXQ9Jfea85s/Re/NvxoA==", "venue_id"=>"4e62a4058877954de84c4d6e", "tip"=>"koko", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"utf8"=>"✓", "authenticity_token"=>"yYaz/GE3n07n3Ke9Xfp1HdSyvoHjrOZGxT56LQCdFUAgJeBf7QfHdlxOdi46kvuZwVyXQ9Jfea85s/Re/NvxoA==", "venue_id"=>"4e62a4058877954de84c4d6e", "tip"=>"koko", "commit"=>"Add Tip", "controller"=>"tips", "action"=>"create"}):
+  app/controllers/tips_controller.rb:11:in `create'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.0ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.9ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.5ms)
